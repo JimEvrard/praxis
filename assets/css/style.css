@@ -1,0 +1,465 @@
+* {
+    font-family: 'Bellefair', serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background-color: #475258;
+    color: #fff;
+}
+
+h4 {
+    color: #ec7404;
+    font-size: 1em !important;
+}
+
+.logo_main_small {
+    margin-left: 8px;
+}
+
+footer {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.font {
+    font-weight: 100;
+}
+
+.container_slide {
+    position: relative;
+}
+
+aside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 27%;
+    padding: 0 2%;
+    background-color: rgba(71, 82, 88, 0.5);
+    height: 100%;
+}
+
+.contenu_aside {
+    margin-top: 20em;
+}
+
+.contenu_aside h2 {
+    font-size: 3em
+}
+
+.aside_small {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    padding: 0 2%;
+    background-color: rgba(71, 82, 88, 0.5);
+    height: 100%;
+}
+
+.swiper-container {
+    height: 100%;
+    overflow: hidden;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.btn1 {
+    border-radius: 25px !important;
+}
+
+.btn1:hover {
+    background-color: #ec7404 !important;
+    color: #000 !important;
+}
+
+.op_cours_title {
+    padding: 3em;
+    position: relative;
+}
+
+.corner_left {
+    width: 20px;
+    height: 20px;
+    border-top: 1px solid #ec7404;
+    border-left: 1px solid #ec7404;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.corner_right {
+    width: 20px;
+    height: 20px;
+    border-bottom: 1px solid #ec7404;
+    border-right: 1px solid #ec7404;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.op_en_cours img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 18em;
+}
+
+.op_shadow:hover {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.aix_paris {
+    height: 20em;
+}
+
+.img_aix {
+    width: 30em;
+}
+
+.btn_plus {
+    width: 50px;
+    height: 50px;
+    transition: transform .7s ease-in-out;
+}
+
+.btn_plus:hover {
+    transform: rotate(-90deg);
+}
+
+.text_1 {
+    background-image: url("../images/fond_rond.jpeg");
+}
+
+.txt_noplus {
+    font-size: 15px;
+}
+
+.numbers {
+    font-size: 2em;
+}
+
+.container_card_end {
+    position: relative;
+    top: -120px;
+    z-index: 2;
+}
+
+.card_end {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
+    background-color: white;
+}
+
+.card_end img {
+    height: 10em;
+}
+
+#gmap_canvas {
+    width: 100%;
+}
+
+.adress {
+    height: 20em;
+    background-color: #475258;
+}
+
+.contact_side_left {
+    width: 100%;
+    height: 100%;
+}
+
+.contact_side_right {
+    width: 100%;
+    height: 80em;
+    background-color: #475258;
+}
+
+.contact_text {
+    border-bottom: 1px solid black;
+    font-size: 3em;
+}
+
+.img_vendez {
+    position: relative;
+}
+
+.img_vendez_2 {
+    position: absolute;
+    width: 14em;
+    height: 18em;
+    top: 9em;
+    right: -6em;
+}
+
+.img_vendez_3 {
+    position: absolute;
+    width: 14em;
+    height: 18em;
+    top: 9em;
+    right: 1em;
+}
+
+.title_vendez {
+    font-size: 5em;
+    color: #ec7404;
+}
+
+.text_vendez {
+    font-size: 1em;
+}
+
+.cont_orange {
+    width: 100%;
+    height: 40em;
+    position: relative;
+}
+
+.text_orange {
+    width: 100%;
+    height: 25em;
+    background-color: #ec7404;
+}
+
+.title_vendez_2 {
+    font-size: 3em;
+    color: white;
+}
+
+.link_vendez {
+    font-size: 2em;
+    color: white;
+    width: 100%;
+    margin-left: 2em;
+}
+
+.link_vendez:hover {
+    background-color: white;
+    color: #ec7404;
+    width: 11em;
+}
+
+.link_vendez_small {
+    font-size: 1em;
+    color: #ec7404;
+    width: 100%;
+}
+
+.link_vendez_small:hover {
+    background-color: #ec7404;
+    color: white;
+    width: 3em;
+}
+
+.text_vendez_2 {
+    font-size: 1em;
+    margin-right: 20em;
+    color: #fff;
+}
+
+.img_vendez_4 {
+    position: absolute;
+    width: 18em;
+    height: 22em;
+    bottom: 0;
+    right: 0;
+}
+
+.img_immo {
+    position: absolute;
+    width: 15em;
+    height: 15em;
+    bottom: 0;
+    right: 0;
+}
+
+.img_aboukir,
+.img_citta,
+.img_crete,
+.img_cita,
+.img_thann,
+.img_europe,
+.img_gama,
+.img_bateliere,
+.img_chevert {
+    height: 350px;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.img_aboukir::after,
+.img_citta::after,
+.img_crete::after,
+.img_cita::after,
+.img_thann::after,
+.img_europe::after,
+.img_gama::after,
+.img_bateliere::after,
+.img_chevert::after {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: Raleway, sans-serif;
+    color: white;
+    font-weight: 100;
+    font-size: 1.7em;
+    background-color: #475258;
+    opacity: 0;
+    transition: opacity .75s;
+}
+
+.img_aboukir:hover::after,
+.img_citta:hover::after,
+.img_crete:hover::after,
+.img_cita:hover::after,
+.img_thann:hover::after,
+.img_europe:hover::after,
+.img_gama:hover::after,
+.img_bateliere:hover::after,
+.img_chevert:hover::after {
+    opacity: 0.9;
+}
+
+.img_gama {
+    background-image: url("http://194.146.225.243/plesk-site-preview/www.praxis-immobilier.com/https/194.146.225.243/wp-content/uploads/2022/03/IMAGE3.jpg")
+}
+
+.img_gama::after {
+    content: "LE VASCO DE GAMA";
+}
+
+.img_bateliere {
+    background-image: url("http://194.146.225.243/plesk-site-preview/www.praxis-immobilier.com/https/194.146.225.243/wp-content/uploads/2022/03/gbateliere.jpg")
+}
+
+.img_bateliere::after {
+    content: "GRANGES BATELIERE";
+}
+
+.img_chevert {
+    background-image: url("http://194.146.225.243/plesk-site-preview/www.praxis-immobilier.com/https/194.146.225.243/wp-content/uploads/2022/03/chevert.jpg")
+}
+
+.img_chevert::after {
+    content: "CHEVERT";
+}
+
+.img_aboukir {
+    background-image: url("http://194.146.225.243/plesk-site-preview/www.praxis-immobilier.com/https/194.146.225.243/wp-content/uploads/2022/03/aboukir.jpg")
+}
+
+.img_aboukir::after {
+    content: 'ABOUKIR';
+}
+
+.img_europe {
+    background-image: url("http://194.146.225.243/plesk-site-preview/www.praxis-immobilier.com/https/194.146.225.243/wp-content/uploads/2022/03/europe.jpg")
+}
+
+.img_europe::after {
+    content: 'EUROPE';
+}
+
+.img_citta {
+    background-image: url("http://194.146.225.243/plesk-site-preview/www.praxis-immobilier.com/https/194.146.225.243/wp-content/uploads/2022/03/LaCitta-Gen1-MASTER-bonne-def.jpg")
+}
+
+.img_citta::after {
+    content: 'LA CITTA';
+}
+
+.img_crete {
+    background-image: url("http://194.146.225.243/plesk-site-preview/www.praxis-immobilier.com/https/194.146.225.243/wp-content/uploads/2022/03/crete-22.jpg")
+}
+
+.img_crete::after {
+    content: 'LES VILLA DE LA CRÊTE';
+}
+
+.img_cita {
+    background-image: url("http://194.146.225.243/plesk-site-preview/www.praxis-immobilier.com/https/194.146.225.243/wp-content/uploads/2022/03/cita.jpg")
+}
+
+.img_cita::after {
+    content: 'LA CITADELLE';
+}
+
+.img_thann {
+    background-image: url("http://194.146.225.243/plesk-site-preview/www.praxis-immobilier.com/https/194.146.225.243/wp-content/uploads/2022/03/THANN.jpg")
+}
+
+.img_thann::after {
+    content: 'THANN';
+}
+
+@media (max-width: 768px) {
+    .article_row {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .article_row div {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+}
+
+.run {}
+
+.arrow {
+    color: #ec7404;
+}
+
+.arrow:hover {
+    transform: translate(20px);
+}
